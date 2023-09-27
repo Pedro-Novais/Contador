@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    
+</head>
+<body>
+    <div id="container">
+        <h1>Contador</h1>
+        <div id="container-num"></div>
+        <div id="container-button">
+            <div class="" id="button-stop">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <input type="number" name="count" id="choose-count" placeholder="Selecione os Segundos" oninput="maxLengthCheck(this)" maxlength="4"/>
+            <div class="" id="button-start">
+                <i class="fa-solid fa-play"></i>
+            </div>
+        </div>
+    </div>
+    <div id="progress-status">
+        <div id="progress-bar"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f674cd130e.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+</body>
+</html>
